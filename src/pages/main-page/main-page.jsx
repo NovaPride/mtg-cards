@@ -1,9 +1,10 @@
+import { CardImage } from "../../components/card";
 import CardWrapper from "../../components/cards-wrapper/cards-wrapper";
 
 import "./main-page.scss";
 
 const MainPage = () => {
-  console.dir(CardWrapper.toString())
+  console.dir(CardWrapper.toString());
   return (
     <>
       <View />
@@ -17,33 +18,40 @@ export default MainPage;
 const View = () => {
   return (
     <article className="useless_text">
-      <h1>Wow! Useless text! Wow!!</h1>
-      <h2>Important text wwoow</h2>
-      <h3>bhlah-blagh-blah</h3>
+      <h1>Ваш универсальный компаньон для поиска карт.</h1>
+      <h2>Поиск. Найди. Играй.</h2>
+      <h3>Больше не нужно листать десятки вкладок.</h3>
       <div className="more_useless">
         <div className="more_useless_elem">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Reprehenderit, facere suscipit assumenda ea ducimus hic itaque
-          repudiandae dolor, odit aliquam eaque praesentium velit, quis placeat
-          blanditiis necessitatibus minima ullam illo? Vel, pariatur enim amet
-          voluptatem at officia facilis cupiditate sed, ea voluptatum nobis
-          ipsum tempore? Aperiam cupiditate et cum suscipit vel libero, ab
-          veniam magnam, harum itaque modi, doloribus sunt! Officia adipisci,
-          hic voluptas minus facilis dolores ea totam quibusdam mollitia veniam
-          ipsa animi iusto libero eveniet, et corporis dolore aspernatur unde.
-          Ex doloribus excepturi ab esse tenetur, quasi incidunt? Ut est sint
-          sapiente sed laborum error iusto nihil assumenda, velit quibusdam
-          cumque omnis nesciunt numquam ab quaerat maiores officia facilis sequi
-          alias voluptates! Fuga amet quod culpa iure natus. Fu Nostrum commodi
-          animi iusto eius, odit quia, ipsum dolore illum veniam deleniti
-          asperiores sunt quo officia cumque mollitia porro explicabo sit!
-          Nihil, nemo suscipit! A, culpa sit. Voluptatibus, magnam cum.
+          Ищете ли вы идеальную карту для своего нового комбо, проверяете
+          актуальные цены на вторичном рынке или просто вдохновляетесь для
+          следующей колоды Commander — вы нашли нужное место. Наш агрегатор
+          предоставляет вам мгновенный доступ к обширной, постоянно обновляемой
+          базе данных карт Magic: The Gathering. Мы объединили информацию из
+          тысяч наборов, от легендарного Alpha до новейших сетей, чтобы вы
+          получили исчерпывающую картину многогранного мира MTG.
+          <br />
+          <br />
+          Воспользуйтесь мощью нашего продвинутого поиска, который позволяет
+          фильтровать карты по десяткам параметров. Точная настройка по
+          мана-стоимости, цветовой идентичности, типам существ и классов
+          заклинаний, ключевым словам способностей, редкости и даже по имени
+          художника — всё это к вашим услугам. Забыли точное название, но
+          помните фразу из правил? Поиск по тексту на карте поможет вам откопать
+          именно ту самую, нужную вам карту.
+          <br />
+          <br />
+          Погружайтесь в богатейшую 30-летнюю историю MTG, изучайте метагейм
+          современных форматов, как Standard и Pioneer, или откройте для себя
+          сокровища для вечных форматов, таких как Винтаж, Легаси и, конечно,
+          Commander. Наша цель — не просто дать вам список карт, а предоставить
+          инструмент для настоящего стратегического анализа и
+          творческого deckbuilding'а. От вашего следующего гениального комбо до
+          идеально отточенной конкурентной колоды — магия начинается именно
+          здесь. Ваше следующее великое открытие ждет вас.
         </div>
-        <div className="more_useless_elem">
-          <img
-            src="https://i.pinimg.com/736x/c8/17/6d/c8176d58adf7ef6e3fe6b558be935108.jpg"
-            alt=""
-          />
+        <div className="more_useless_elem_card">
+          <CardImage src={"http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129465&type=card"} alt={"Angel of Mercy"} scale={1.2} />
         </div>
       </div>
     </article>

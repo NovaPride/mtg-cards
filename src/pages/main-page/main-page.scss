@@ -1,28 +1,33 @@
-.useless_text{
+.useless_text {
   font-size: 2rem;
   text-align: center;
   padding-top: 7rem;
   min-height: 80rem;
   height: calc(100vh - 95px);
-  h1{
+  
+  h1 {
     margin: 0;
     font-size: 2rem;
   }
-  h2{
+  h2 {
     margin: 0;
     font-size: 7rem;
   }
-  h3{
+  h3 {
     margin: 0;
     margin-bottom: 3rem;
     font-size: 2rem;
   }
-  .more_useless{
+  .more_useless {
     display: flex;
     gap: 4rem;
-    &_elem{
-      img{
-        max-width: 500px;
+
+    &_elem {
+      &_card {
+        flex-shrink: 0;
+        img {
+          max-width: 500px;
+        }
       }
     }
   }
